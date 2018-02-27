@@ -1,7 +1,5 @@
 /*Joseph Klimko
-
- * lab 3
- * main
+ * Driver
  */
 
 #include "stack.h"
@@ -13,7 +11,7 @@ int main(){
 	ItemType item;
 	StackOnArray s1, s2, tmpS;
 
-	cout << "PLease enter some string\n";
+	cout << "Please enter some string\n";
 
 	getline(cin, a);
 
